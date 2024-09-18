@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white1">#49454F</color>
+    <color name="bac">#CBC5D5</color>
+    <color name="xxz">#6C7083</color>
+    <color name="bluee">#A4B1EF</color>
+    <color name="pyrpul">#6D679A</color>
+    <color name="filo">#A698E4</color>
+    <color name="crenWhite">#7F9A9E</color>
+    <color name="pinkblack">#887B9A</color>
+    <color name="poluDark">#292929</color>
+    <color name="poluDark1">#393838</color>
+    <color name="green">#0EAF0E</color>
+    <color name="red">#7E1C1C</color>
+    <color name="colo9r1">#3E23B3</color>
+
+    <color name="coll">#0F0730</color>
+
+
+</resources>

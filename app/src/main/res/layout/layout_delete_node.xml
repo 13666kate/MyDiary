@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutSeleteNoteConteiner"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_10sdp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="192dp"
+        android:background="@color/poluDark"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageDeleteNode"
+            android:layout_width="43dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/baseline_delete"
+            android:tint="@color/bac" />
+
+
+        <TextView
+            android:layout_width="289dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:fontFamily="@font/gothic"
+            android:includeFontPadding="false"
+            android:text="@string/are"
+            android:textColor="@color/bac"
+            android:textSize="@dimen/_14sdp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:background="@color/poluDark"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textCencle"
+                android:layout_width="84dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:fontFamily="@font/gothic"
+                android:includeFontPadding="false"
+                android:text="cencle"
+                android:textColor="@color/bac"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:id="@+id/textDeleteNode"
+                android:layout_width="228dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:fontFamily="@font/gothic"
+                android:includeFontPadding="false"
+                android:text="@string/delete_note"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_14sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
