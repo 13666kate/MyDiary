@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Diary</string>
+    <string name="my_notes">My notes</string>
+    <string name="notes">notes</string>
+    <string name="note_title">Note title</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="type_node_here">Type Node here...</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="color">color</string>
+    <string name="add_image">add image</string>
+    <string name="delete">delete</string>
+    <string name="delete_note">delete Note</string>
+    <string name="are">вы уверены что хотите удалить воспоминания?</string>
+    <string name="my_diary">My Diary</string>
+    <string name="instuments">Instuments</string>
+    <string name="instruments">instruments</string>
+    <string name="titil">Введите заголовок</string>
+    <string name="sub">Введите подзаголовок</string>
+    <string name="text">Введите текст</string>
+</resources>

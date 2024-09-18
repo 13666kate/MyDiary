@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.MainActivity"
+    android:background = "@drawable/center">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="370dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/cooper"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/my_diary"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/layoutS4earch"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="@+id/layoutS4earch"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <LinearLayout
+        android:id="@+id/layoutS4earch"
+        android:layout_width="356dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/bacground"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ip_search"
+            android:tint="@color/white" />
+
+
+        <EditText
+            android:id="@+id/input_Search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:background="@null"
+            android:fontFamily="@font/gothic"
+            android:hint="@string/notes"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/bac"
+            android:textColorHint="@color/poluDark"
+            android:textSize="@dimen/_13sdp" />
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notesRecuclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="200dp"
+        android:clipToPadding="false"
+        android:padding="@dimen/_12sdp"
+        android:paddingStart="0dp"
+
+        android:paddingBottom="@dimen/_12sdp"
+        app:layout_constraintTop_toBottomOf="@+id/layoutS4earch"
+        tools:layout_editor_absoluteX="10dp" />
+
+
+    <ImageView
+        android:id="@+id/imageAddMain"
+        android:layout_width="59dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/bacgound_add_button"
+        android:contentDescription="@string/app_name"
+        android:paddingEnd="@dimen/_5sdp"
+        android:src="@drawable/ic_add"
+        android:tint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notesRecuclerView"
+        app:layout_constraintVertical_bias="0.548" />
+
+    <ImageView
+        android:id="@+id/music"
+        android:layout_width="56dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/bacgound_add_button"
+        android:contentDescription="@string/app_name"
+        android:paddingEnd="@dimen/_5sdp"
+        android:src="@drawable/baseline_music"
+        android:tint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notesRecuclerView"
+        app:layout_constraintVertical_bias="0.555" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

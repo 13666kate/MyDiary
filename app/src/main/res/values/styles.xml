@@ -1,0 +1,11 @@
+
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/pyrpul </item>
+        <item name="colorPrimaryDark">@color/xxz</item>
+        <item name="colorAccent">@color/bac</item>
+    </style>
+
+</resources>
